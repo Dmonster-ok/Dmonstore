@@ -1,0 +1,44 @@
+img {
+  margin: auto;
+  height: auto;
+  width: 300px;
+}
+
+#load {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pass {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: auto;
+  height: 50px;
+  background-image: url('img/passbg.png');
+  background-size: 105%;
+  background-repeat: no-repeat;
+  border: none;
+  color: #313a40;
+  border-radius: 5%;
+ 
+}
+
+.hb {
+ background-image: url('img/Hbg.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+}

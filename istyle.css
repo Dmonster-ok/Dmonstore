@@ -1,0 +1,150 @@
+body {
+  background-image: url('img/Hbg2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+/*.blocks {
+  width: 200px;
+  height: 200px;
+ border: 3px solid rgba(255,60,200,0.3);
+  margin: 20px;
+  padding: 0px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 70px;
+  margin-bottom: 50px;} */
+
+img {
+  width: 200px;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.blocks {
+box-shadow: 5px 17px 20px 0px rgba(163, 133, 200, 0.60);
+border-radius: 25px;
+}
+
+#parent {
+  margin-top: 50px;
+  display: block;
+}
+
+#description {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+
+dt {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+dd {
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 20px;
+  text-shadow: 5px 1px 2px 0px rgba(79,0,255,0.297);
+}
+
+dl {
+  color: rgb(187,166,216);
+}
+
+header {
+  display: block;
+}
+
+.blocks {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Lp img {
+  width: 200px;
+  height: auto;
+}
+
+.Na {
+  margin: 0px;
+  position: static;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.Lp {
+  margin-bottom: 30px;
+}
+
+#nav {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#nav img {
+  filter: blur(0.7px);
+  width: auto;
+  height: 70px;
+  transition: filter 0.4s;
+}
+#nav img:hover {
+  filter: blur(0px);
+}
+
+.mean {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  opacity: 0;
+  transition: 0.5s;
+}
+a:hover .mean {
+  transition-delay: 2s;
+  opacity: 1;
+}
+
+a:link {
+  text-decoration: none;
+  color: #d4fdf8;
+}
+a:visited {
+  text-decoration: none;
+  color: #d4fdf8;
+}
+a:hover {
+  text-decoration: none;
+  color: #d4fdf8;
+}
+a:active {
+  text-decoration: none;
+  color: #d4fdf8;
+}
+
